@@ -84,7 +84,10 @@ def check_secure_val(h):
     val = h.split('|')[0]
     if h == make_secure_val(val):
         return val              
-  
+      
+def test():
+    pass
+
 class BlogCookie(Handler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
