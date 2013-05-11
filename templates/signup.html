@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Username</title>
+</head>
+
+<body>
+
+<form method="post">
+	<br><label id="Label1">Username:</label><input name="username" type="text" value="%(username)s"/><div>%(username_error)s</div>
+	<br><label id="Label2">Password:</label><input name="password" type="password" /><div>%(password_error)s</div>
+	<br><label id="Label3">Verify:</label><input name="verify" type="password" /><div>%(password_mismatch)s</div>
+	<br><label id="Label4">E-Mail(optional):</label><input name="email" type="text" value="%(email)s" /><div>%(email_error)s</div>
+	<br><input name="Submit1" type="submit" value="submit" />
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Login</title>
+</head>
+
+<body>
+
+<form method="post">
+	<br><label id="Label1">Username:</label><input name="username" type="text" value="{{params['username']}}"/><div>{{params['username_error']}}</div>
+    <br><label id="Label2">Password:</label><input name="password" type="password" /><div>{{params['password_error']}}</div>
+	<br><input name="Submit1" type="submit" value="submit" />
+</form>
+
+</body>
+
+</html>
